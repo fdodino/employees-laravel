@@ -1,6 +1,6 @@
 # Employee Management System
 
-[![Build Status](https://github.com/yourusername/employees-laravel/actions/workflows/php.yml/badge.svg)](https://github.com/yourusername/employees-laravel/actions)
+[![PHP CI](https://github.com/fdodino/employees-laravel/actions/workflows/php.yml/badge.svg)](https://github.com/fdodino/employees-laravel/actions/workflows/php.yml)
 
 A modern employee management system built with Laravel and MongoDB. This application provides a RESTful API for managing employee records, including CRUD operations and pagination.
 
