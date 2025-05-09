@@ -23,7 +23,12 @@
         "laravel/sail": "^1.20.0",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^9.0",
-        "phpunit/phpunit": "^10.4"
+        "phpunit/phpunit": "^10.4",
+        "phpstan/phpstan": "^1.13",
+        "phpstan/phpstan-laravel": "^1.13",
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpmd/phpmd": "^3.0",
+        "friendsofphp/php-cs-fixer": "^3.20"
     },
     "autoload": {
         "psr-4": {

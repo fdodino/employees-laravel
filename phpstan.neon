@@ -1,0 +1,22 @@
+parameters:
+    level: 8
+    paths:
+        - app
+        - tests
+    ignoreErrors:
+        - "Call to an undefined method MongoDB\\Laravel\\Eloquent\\Model::create()."
+        - "Call to an undefined method MongoDB\\Laravel\\Eloquent\\Model::count()."
+        - "Call to an undefined method MongoDB\\Laravel\\Eloquent\\Model::skip()."
+        - "Call to an undefined method MongoDB\\Laravel\\Eloquent\\Model::take()."
+        - "Call to an undefined method MongoDB\\Laravel\\Eloquent\\Model::get()."
+        - "Call to an undefined method MongoDB\\Laravel\\Eloquent\\Model::findOrFail()."
+        - "Call to an undefined method MongoDB\\Laravel\\Eloquent\\Model::update()."
+        - "Call to an undefined method MongoDB\\Laravel\\Eloquent\\Model::delete()."
+        - "Call to an undefined method MongoDB\\Laravel\\Eloquent\\Model::paginate()."
+    autoloadFiles:
+        - bootstrap/app.php
+    excludePaths:
+        - app/Http/Controllers/WelcomeController.php
+    reportUnmatchedIgnoredErrors: false
+    parallel: 4
+    memoryLimit: 2G
